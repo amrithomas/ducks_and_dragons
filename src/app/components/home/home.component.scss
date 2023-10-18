@@ -1,0 +1,18 @@
+
+@import url('../../../styles.css');
+
+.home {
+    background-image: url('../../../assets/images/background.jpg');
+    height : 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo {
+    font-family: 'Koulen', sans-serif;
+    color: white;
+    font-size:  100px;
+}
+
