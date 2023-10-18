@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { trigger, state, style, animate, transition, keyframes } from '@angular/animations';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -19,7 +20,22 @@ import { trigger, state, style, animate, transition, keyframes } from '@angular/
     ])
   ]
 })
+
 export class HomePageComponent {
+  constructor(private router: Router) { }
+
+
   public title = 'home';
 
+  route(routing: string) {
+    if (routing == 'new-character') {
+      this.router.navigate(['/new-character']);
+    } else if (routing == 'spells') {
+      this.router.navigate(['/spells']);
+    } else if (routing == 'monsters') {
+      this.router.navigate(['/monsters']);
+    } else {
+
+    }
+  }
 }

@@ -1,0 +1,18 @@
+@import url('../../../styles.css');
+
+.new-character {
+    background-image: url('../../../assets/images/new-character-background.jpg');
+    height : 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    width: 90vw;
+    height: 90vh;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 30px;
+}
